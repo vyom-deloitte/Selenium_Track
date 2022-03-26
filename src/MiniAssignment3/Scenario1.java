@@ -10,7 +10,6 @@ public class Scenario1 {
         String DriverPath = "C:\\SdetSoftwares\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", DriverPath);
         WebDriver driver = new ChromeDriver();
-//        driver.manage().window().maximize();
         DoTask(driver);
     }
     public static void DoTask(WebDriver driver){
